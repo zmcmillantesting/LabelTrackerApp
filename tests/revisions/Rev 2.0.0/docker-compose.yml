@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15-alpine  # Use a specific PostgreSQL version
+    container_name: label_tracker_db
+    environment:
+      POSTGRES_USER: devoloper       # Default database username
+      POSTGRES_PASSWORD: 1234   # Default database password - CHANGE THIS!
+      POSTGRES_DB: label_tracker     # Default database name
+    ports:
+      - "5432:5432" # Map host port 5432 to container port 5432
+    volumes:
+      - postgres_data:/var/lib/postgresql/data # Persist data
+
+volumes:
+  postgres_data: 

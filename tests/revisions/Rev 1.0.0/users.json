@@ -1,0 +1,52 @@
+{
+  "admin": {
+    "password": "password",
+    "department": "admin",
+    "is_manager": true
+  },
+  "manager1": {
+    "password": "password123",
+    "department": "production_control",
+    "is_manager": true
+  },
+  "smt_user": {
+    "password": "password123",
+    "department": "smt_aoi",
+    "is_manager": false
+  },
+  "bench_user": {
+    "password": "password123",
+    "department": "bench",
+    "is_manager": false
+  },
+  "through_hole_user": {
+    "password": "password123",
+    "department": "through_hole",
+    "is_manager": false
+  },
+  "production_user": {
+    "password": "password123",
+    "department": "production_control",
+    "is_manager": false
+  },
+  "quality_user": {
+    "password": "password123",
+    "department": "quality",
+    "is_manager": false
+  },
+  "shipping_user": {
+    "password": "password123",
+    "department": "shipping",
+    "is_manager": false
+  },
+  "zmcmillan": {
+    "password": "1234",
+    "department": "test",
+    "is_manager": true
+  },
+  "mdavis": {
+    "password": "1234",
+    "department": "quality",
+    "is_manager": true
+  }
+}

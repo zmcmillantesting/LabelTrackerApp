@@ -1,0 +1,4 @@
+# Python version: 3.12.9
+python-barcode==0.15.1
+Pillow==10.2.0
+PyQt6 

@@ -1,0 +1,64 @@
+{
+  "admin": {
+    "name": "Administration",
+    "permissions": [
+      "manage_users",
+      "manage_orders",
+      "view_all",
+      "view_all_orders",
+      "create_orders",
+      "scan_barcodes"
+    ]
+  },
+  "smt_aoi": {
+    "name": "SMT/AOI",
+    "permissions": [
+      "scan_barcodes",
+      "view_own_orders"
+    ]
+  },
+  "bench": {
+    "name": "Bench",
+    "permissions": [
+      "scan_barcodes",
+      "view_own_orders"
+    ]
+  },
+  "through_hole": {
+    "name": "Through Hole",
+    "permissions": [
+      "scan_barcodes",
+      "view_own_orders"
+    ]
+  },
+  "production_control": {
+    "name": "Production Control",
+    "permissions": [
+      "scan_barcodes",
+      "view_all_orders"
+    ]
+  },
+  "quality": {
+    "name": "Quality",
+    "permissions": [
+      "scan_barcodes",
+      "view_all_orders",
+      "add_comments"
+    ]
+  },
+  "test": {
+    "name": "Test",
+    "permissions": [
+      "scan_barcodes",
+      "view_own_orders",
+      "add_comments"
+    ]
+  },
+  "shipping": {
+    "name": "Shipping",
+    "permissions": [
+      "scan_barcodes",
+      "view_all_orders"
+    ]
+  }
+}

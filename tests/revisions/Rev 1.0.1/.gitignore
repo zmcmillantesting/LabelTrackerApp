@@ -1,0 +1,7 @@
+# Configuration Files (GUI)
+/gui_config.ini
+
+# Log files and feedback
+/errors-feedback/
+error_log.txt
+user_feedback.txt 
